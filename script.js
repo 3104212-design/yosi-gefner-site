@@ -53,3 +53,9 @@ if (videoLoader && videoFrame) {
     }
   });
 }
+document.querySelector('.contact-form')
+  .addEventListener('submit', function () {
+    setTimeout(() => {
+      document.getElementById('successMessage').style.display = 'block';
+    }, 1000);
+  });
