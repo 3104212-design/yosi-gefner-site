@@ -30,15 +30,6 @@ body::before {
 
     z-index: -1;
 }
-body {
-  margin: 0;
-  direction: rtl;
-  color: var(--ink);
-  background: var(--background);
-  font-family: "Assistant", "Heebo", Arial, sans-serif;
-  line-height: 1.7;
-  text-rendering: optimizeLegibility;
-}
 
 img,
 iframe {
