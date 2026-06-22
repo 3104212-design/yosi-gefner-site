@@ -30,7 +30,11 @@ body::before {
 
     z-index: -1;
 }
-
+body {
+  font-family: "Assistant", "Heebo", Arial, sans-serif;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
 img,
 iframe {
   display: block;
